@@ -1,4 +1,4 @@
-from transformers.modeling_tf_gpt2 import TFConv1D, TFMLP, shape_list, TFSharedEmbeddings, get_initializer
+from transformers.modeling_tf_utils import TFConv1D, TFMLP, shape_list, TFSharedEmbeddings, get_initializer
 import tensorflow as tf
 from gpt2.pretrained_model import TFGPT2PreTrainedModel
 
